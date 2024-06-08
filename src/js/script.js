@@ -32,7 +32,7 @@ document
   .addEventListener("click", function (event) {
     event.preventDefault();
     var phoneNumber = "6285398131485";
-    var message = "Hallo. Masukkan Pesan Anda...";
+    var message = "Hallo. Masukkan Pesan Anda...!!";
     var whatsappURL =
       "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
     window.open(whatsappURL, "_blank");
@@ -45,7 +45,7 @@ document
     event.preventDefault(); // Mencegah link langsung terbuka
     var emailAddress = "adyrenald.ar@gmail.com"; // Ganti dengan alamat email Anda
     var subject = "Subject Here"; // Ganti dengan subjek email yang diinginkan
-    var body = "Hallo. Hallo. Masukkan Pesan Anda..."; // Ganti dengan isi email yang diinginkan
+    var body = "Hallo. Hallo. Masukkan Pesan Anda...!!"; // Ganti dengan isi email yang diinginkan
     var mailtoURL =
       "mailto:" +
       emailAddress +
